@@ -1,0 +1,21 @@
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #3498db;
+}
+
+footer {
+    margin: 50px 0;
+}
